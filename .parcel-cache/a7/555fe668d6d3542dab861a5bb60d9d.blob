@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" class="box-border h-full">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="09b1b610408c0e0e6a4ae9f0254bce1e">
+    <title>Miembros</title>
+</head>
+
+<body class="bg-grey font-serif">
+    <header id="header" class="border border-black">
+        <nav class="py-nav">
+            <div class="flex items-center justify-between px-nav1">
+                <a class="uppercase py-nav2 text-primary no-underline text-white text-1-25" href="1a24d892e90e4b3588fff725f71c7a9b">ShitImChoosen</a>
+                <div class="flex justify-end flex-grow items-center" id="navbarNavAltMarkup">
+                    <ul class="flex">
+                        <li>
+                            <a class="uppercase text-primary text-nav no-underline text-1 active" href="3e022dbf3eb8186515f97a3b9fd8c766">
+                                Miembros
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="mt-lg px-sm md:px-lg">
+
+
+            <nav>
+                <ol class="breadcrumb md:px-4 md:pl-4">
+                    <li class="breadcrumb-item pl-nav"><a class="text-primary no-underline text-1-25" href="1a24d892e90e4b3588fff725f71c7a9b">Inicio</a></li>
+                    <li class="breadcrumb-item active pl-nav text-1-25" aria-current="page">Miembros</li>
+                </ol>
+            </nav>
+
+
+            <h1 class="text-primary font-sans text-xl pl-ss md:text-title">Miembros de la banda</h1>
+            <div class="flex flex-wrap justify-evenly mt-10">
+                <div class="card bg-white mt-mdl">
+                    <img class="h-full w-full object-cover max-h-74" src="c9aeca2cec88351b093e55596537426c" alt="imagen de Juan">
+                    <div class="card-container">
+                        <h4 class="text-h4"><b>Juan Rodri</b></h4>
+                        <p class="mb-smm">Voz y guitarra electrica</p>
+                    </div>
+
+                </div>
+                <div class="card bg-white mt-mdl">
+                    <img class="h-full w-full object-cover max-h-74" src="da2e6cc16e8dc27b149b61762fe3662b" alt="imagen de Juan">
+                    <div class="card-container">
+                        <h4 class="text-h4"><b>Mikel Jhon</b></h4>
+                        <p class="mb-smm">Saxo y compositor</p>
+                    </div>
+
+                </div>
+                <div class="card bg-white mt-mdl">
+                    <img class="h-full w-full object-cover max-h-74" src="7d40c5e8f883732aa143c8dde388b336" alt="imagen de Juan">
+                    <div class="card-container">
+                        <h4 class="text-h4"><b>Manel Guti</b></h4>
+                        <p class="mb-smm">Pianista</p>
+                    </div>
+
+                </div>
+                <div class="card bg-white">
+                    <img class="h-full w-full object-cover max-h-74" src="976dda2673be2b5d5f617c53fe4629ad" alt="imagen de Juan">
+                    <div class="card-container bg-white">
+                        <h4 class="text-h4"><b>Adri Gómez</b></h4>
+                        <p class="mb-smm">Guitarra y vocalista</p>
+                    </div>
+                </div>
+
+                <div class="card bg-white">
+                    <img class="h-full w-full object-cover max-h-74" src="944be9bfeb445d541650a0c5314c51b0" alt="imagen de Juan">
+                    <div class="card-container bg-white">
+                        <h4 class="text-h4"><b>Nerea Smith</b></h4>
+                        <p class="mb-smm">Guitarra y bajo</p>
+                    </div>
+                </div>
+                <div class="card bg-white">
+                    <img class="h-full w-full object-cover max-h-74" src="0d47c0429c9917b0d51e52200460d435" alt="imagen de Juan">
+                    <div class="card-container bg-white">
+                        <h4 class="text-h4"><b>Marc Croses</b></h4>
+                        <p class="mb-smm">Bateria</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="my-1 text-green">
+        <section class="mt-lg px-sm md:px-lg">
+            <h2 class="text-secondary text-calc md:text-title md:text-calc-md xl:text-2xl md:mt-lg">Nuestra pasión</h2>
+            <p class="text-white mb-smm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </section>
+    </main>
+
+    <footer class="footer font-sans bg-black mt-xlg p-30 text-center">
+        <div class="flex-row-reverse text-blue text-base md:flex justify-between">
+            <p class="mb-smm"><i class="fas fa-phone-alt"> </i>  609386905</p>
+        </div>
+        <div class="md:flex justify-between">
+            <a class="text-base p-10 text-primary no-underline" href="#">ShitImChoosen</a>
+            <ul class="flex justify-center items-center">
+                <li>
+                    <a class="text-base p-10 text-primary no-underline" aria-current="page" href="1a24d892e90e4b3588fff725f71c7a9b">Inicio</a>
+                </li>
+                <li>
+                    <a class="text-base p-10 text-primary no-underline" href="3e022dbf3eb8186515f97a3b9fd8c766">Miembros</a>
+                </li>
+            </ul>
+            <p class="mb-smm">
+                <a class="text-base p-10 text-primary no-underline" href=""><i class="fab fa-facebook"></i></a><a class="text-base p-10 text-primary no-underline" href=""><i class="fab fa-twitter"></i></a><a class="text-base p-10 text-primary no-underline" href="">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </p>
+        </div>
+        <div class="text-x-small text-white mt-md md:flex justify-between">
+            <div>
+                <p class="mb-smm">&copy; <time datetime="2021">2021</time> Gil Prat Pladevall</p>
+            </div>
+            <p class="mb-smm">
+                Imagenes <a class="text-x-small text-white p-10 text-primary no-underline" href="c2f5d0860c6366f91468eebce8e4743c">unsplash.com</a>
+                Font made from <a class="text-x-small text-white p-10 text-primary no-underline" href="b183161dc5b0aa92b33708be84d51f90">online Web Fonts</a>is licensed by CC BY 3.0
+            </p>
+        </div>
+    </footer>
+    <script src="228022327e4d14a0e6d0a0694293fff7"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+@use "sass:color";
+
+/* fonts */
+
+@font-face {
+  font-family: "OCR A EXTENDED";
+  src: url("../fonts/OCR\ A\ Extended\ V1.woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url("../fonts/Montserrat-Medium.woff");
+  font-display: swap;
+}

@@ -1,0 +1,27 @@
+
+/* Global Main styles */
+
+.portada {
+
+  @apply relative max-w-2xl p-4 my-0 mx-a;
+
+}
+
+button {
+
+  @apply bg-green uppercase border-none;
+
+}
+
+// Grid layout for wide display
+
+@supports (display:grid) {
+
+  @media (min-width: 768px) and (min-height: 432px) {
+
+    .portada {
+
+      @apply grid p-0 max-w-none grid-cols-portada grid-rows-portada;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+
+a:hover,
+i:hover {
+  color: mix(#52dbfb, #aa4f4f, 70%);
+  transition: all .5s ease;
+  transform: scale(1.02);
+}
+
+@layer components{
+
+  .breadcrumb {
+
+    @apply flex font-sans mb-3 text-linkgray;
+
+    .breadcrumb-item + .breadcrumb-item::before {
+      
+      @apply float-left pr-nav text-linkgray;
+      content: "/";
+  }
+
+  }
+}
