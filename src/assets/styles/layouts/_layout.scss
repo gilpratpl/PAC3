@@ -28,7 +28,7 @@ i:hover {
       @apply py-s px-4;
     }
   }
-  
+
   .portada {
 
     @apply relative max-w-2xl p-4 my-0 mx-a;
@@ -42,13 +42,10 @@ i:hover {
   }
 }
 
-@supports (display:grid) {
+@media (min-width: 768px) and (min-height: 432px) {
 
-  @media (min-width: 768px) and (min-height: 432px) {
+  .portada {
 
-    .portada {
-
-      @apply grid p-0 max-w-none grid-cols-portada grid-rows-portada;
-    }
+    @apply grid p-0 max-w-none grid-cols-portada grid-rows-portada;
   }
 }

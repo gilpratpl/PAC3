@@ -578,6 +578,23 @@ video {
   padding-bottom: 0.125rem;
 }
 
+.portada {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 42rem;
+  padding: 1rem;
+  position: relative;
+}
+
+button {
+  --tw-bg-opacity: 1;
+  background-color: rgba(200, 211, 104, var(--tw-bg-opacity));
+  border-style: none;
+  text-transform: uppercase;
+}
+
 /* fonts */
 
 @font-face {
@@ -608,35 +625,14 @@ i:hover {
   transform: scale(1.02);
 }
 
-/* Global Main styles */
-
-.portada {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 42rem;
-  padding: 1rem;
-  position: relative;
-}
-
-button {
-  --tw-bg-opacity: 1;
-  background-color: rgba(200, 211, 104, var(--tw-bg-opacity));
-  border-style: none;
-  text-transform: uppercase;
-}
-
-@supports (display: grid) {
-  @media (min-width: 768px) and (min-height: 432px) {
-    .portada {
-      display: grid;
-      max-width: none;
-      padding: 0px;
-      grid-template-columns: 1fr minmax(10em, -webkit-max-content) 1fr minmax(10em, -webkit-max-content) 1fr minmax(10em, 1fr);
-      grid-template-columns: 1fr minmax(10em, max-content) 1fr minmax(10em, max-content) 1fr minmax(10em, 1fr);
-      grid-template-rows: 30vh 30vh 20vh;
-    }
+@media (min-width: 768px) and (min-height: 432px) {
+  .portada {
+    display: grid;
+    max-width: none;
+    padding: 0px;
+    grid-template-columns: 1fr minmax(10em, -webkit-max-content) 1fr minmax(10em, -webkit-max-content) 1fr minmax(10em, 1fr);
+    grid-template-columns: 1fr minmax(10em, max-content) 1fr minmax(10em, max-content) 1fr minmax(10em, 1fr);
+    grid-template-rows: 30vh 30vh 20vh;
   }
 }
 
