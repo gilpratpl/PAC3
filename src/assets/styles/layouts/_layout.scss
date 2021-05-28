@@ -17,6 +17,38 @@ i:hover {
       @apply float-left pr-nav text-linkgray;
       content: "/";
     }
+  }
 
+  .card {
+
+    @apply flex flex-col text-black m-sm w-2/7 min-w-250 border-none shadow-sm duration-300 hover:shadow-xl;
+
+    .card-container {
+
+      @apply py-s px-4;
+    }
+  }
+  
+  .portada {
+
+    @apply relative max-w-2xl p-4 my-0 mx-a;
+
+  }
+
+  button {
+
+    @apply bg-green uppercase border-none;
+
+  }
+}
+
+@supports (display:grid) {
+
+  @media (min-width: 768px) and (min-height: 432px) {
+
+    .portada {
+
+      @apply grid p-0 max-w-none grid-cols-portada grid-rows-portada;
+    }
   }
 }
