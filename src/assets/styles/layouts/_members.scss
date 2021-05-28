@@ -1,7 +1,6 @@
 @layer components{
 
   .card {
-    /* Add shadows to create the "card" effect------breadcrumb------header------footer-----grid? */ 
 
     @apply flex flex-col text-black m-sm w-2/7 min-w-250 border-none shadow-sm duration-300 hover:shadow-xl;
 

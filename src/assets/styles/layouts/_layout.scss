@@ -13,10 +13,10 @@ i:hover {
     @apply flex font-sans mb-3 text-linkgray;
 
     .breadcrumb-item + .breadcrumb-item::before {
-      
+
       @apply float-left pr-nav text-linkgray;
       content: "/";
-  }
+    }
 
   }
 }

@@ -1,0 +1,74 @@
+/**
+ * Use this file to import partials.
+ * Do not include SCSS code in this file.
+ */
+/**
+ * Import variables
+ */
+/**
+ * Import npm dependencies
+ * see: https://v2.parceljs.org/features/module-resolution/
+ * see commented examples below
+ */
+@import "@fortawesome/fontawesome-free/css/all.css";
+@tailwind base;
+@tailwind components;
+/* fonts */
+@font-face {
+  font-family: "OCR A EXTENDED";
+  src: url("../fonts/OCR A Extended V1.woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: montserrat;
+  src: url("../fonts/Montserrat-Medium.woff");
+  font-display: swap;
+}
+/**
+ * Import layouts
+ * It's a best practice to use a different partial for each page
+ */
+a:hover,
+i:hover {
+  color: #6cb1c7;
+  transition: all 0.5s ease;
+  transform: scale(1.02);
+}
+
+@layer components {
+  .breadcrumb {
+    @apply flex font-sans mb-3 text-linkgray;
+  }
+  .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    @apply float-left pr-nav text-linkgray;
+    content: "/";
+  }
+}
+/* Global Main styles */
+.portada {
+  @apply relative max-w-2xl p-4 my-0 mx-a;
+}
+
+button {
+  @apply bg-green uppercase border-none;
+}
+
+@supports (display: grid) {
+  @media (min-width: 768px) and (min-height: 432px) {
+    .portada {
+      @apply grid p-0 max-w-none grid-cols-portada grid-rows-portada;
+    }
+  }
+}
+@layer components {
+  .card {
+    @apply flex flex-col text-black m-sm w-2/7 min-w-250 border-none shadow-sm duration-300 hover:shadow-xl;
+  }
+  .card .card-container {
+    @apply py-s px-4;
+  }
+}
+@tailwind utilities;
+/**
+ * Do NOT include anything else in this file!
+ */
